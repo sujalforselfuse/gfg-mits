@@ -12,7 +12,7 @@ export default function Home() {
             <Hero></Hero>
             <Whatwedo></Whatwedo>
             <Discordbanner></Discordbanner>
-            <Gallery></Gallery>
+            {/* <Gallery></Gallery> */}
             <Footer></Footer>
         </div>
     )

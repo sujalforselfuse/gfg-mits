@@ -1,5 +1,5 @@
 import React from 'react'
-import gfg2 from './gfg2.png';
+import gfg2 from './gfg2_1.png';
 export default function Hero() {
   return (
     <div class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
@@ -24,7 +24,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className='hidden sm:block'>
+        <div className='hidden lg:block'>
           <img src={gfg2} class="max-w-xs md:max-w-lg m-auto" />
         </div>
         
