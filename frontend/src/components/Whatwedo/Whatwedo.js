@@ -32,10 +32,10 @@ export default function Whatwedo() {
                         </span>
 
                         <h2 class="mt-2 font-semibold text-base sm:text-lg dark:text-white text-black">
-                            For Developers
+                            Hackathons
                         </h2>
-                        <p class="sm:mt-1 block text-sm sm:text-base dark:text-gray-300 text-gray-800"> Prototype ideas
-                            online, without depending on your local environment.
+                        <p class="sm:mt-1 block text-sm sm:text-base dark:text-gray-300 text-gray-800"> 
+                        Our hackathons provide a platform to showcase your programming prowess and collaborate with like-minded individuals
                         </p>
                     </div>
 
@@ -48,10 +48,10 @@ export default function Whatwedo() {
                             </div>
                         </span>
                         <h2 class="mt-2 font-semibold text-base sm:text-lg dark:text-white text-black">
-                            Content creators
+                            Webinars & Workshops
                         </h2>
-                        <p class="sm:mt-1 block text-sm sm:text-base dark:text-gray-300 text-gray-800"> Deliver
-                            high-quality, engaging blogs, articles, and video tutorials to your audience.
+                        <p class="sm:mt-1 block text-sm sm:text-base dark:text-gray-300 text-gray-800"> 
+                        our expert-led sessions aim to enhance your skills and keep you updated on the latest trends and advancements.
                         </p>
                     </div>
 
@@ -66,10 +66,9 @@ export default function Whatwedo() {
                         </span>
 
                         <h2 class="mt-2 font-semibold text-base sm:text-lg dark:text-white text-black">
-                            Educators
-                            teaching PHP </h2>
-                        <p class="sm:mt-1 block text-sm sm:text-base dark:text-gray-300 text-gray-800"> Easily create and
-                            share coding assignments and projects with your students
+                            Coding Competitions </h2>
+                        <p class="sm:mt-1 block text-sm sm:text-base dark:text-gray-300 text-gray-800"> 
+                        Challenge yourself with algorithmic problem-solving, data structure puzzles, and more. 
                         </p>
                     </div>
 
@@ -82,10 +81,9 @@ export default function Whatwedo() {
                             </div>
                         </span>
                         <h2 class="mt-2 font-semibold text-base sm:text-lg dark:text-white text-black">
-                            Open source
-                            maintainers </h2>
-                        <p class="sm:mt-1 block text-sm sm:text-base dark:text-gray-300 text-gray-800">For issue
-                            reproduction while letting your users try your work without installing it
+                            Career Guidance & Internship opportunity </h2>
+                        <p class="sm:mt-1 block text-sm sm:text-base dark:text-gray-300 text-gray-800">
+                         Gain hands-on exposure to the industry, work on impactful projects, and collaborate with professionals. 
                         </p>
                     </div>
                 </div>
