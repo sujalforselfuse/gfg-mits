@@ -3,7 +3,7 @@ import gfg2 from './gfg2.png';
 export default function Hero() {
   return (
     <div class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
-      <div class="container mx-auto px-6 flex relative py-16">
+      <div class="container mx-auto px-6 flex relative py-16 justify-between">
         <div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
           
           <h1 class="font-bebas-neue uppercase text-6xl sm:text-6xl font-black flex flex-col leading-none dark:text-white text-gray-800">
@@ -25,7 +25,7 @@ export default function Hero() {
           </div>
         </div>
         <div className='hidden sm:block'>
-          <img src={gfg2} class="max-w-xs md:max-w-sm m-auto" />
+          <img src={gfg2} class="max-w-xs md:max-w-lg m-auto" />
         </div>
         
       </div>
