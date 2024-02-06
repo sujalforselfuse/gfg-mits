@@ -20,10 +20,12 @@ export default function Footer() {
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
 
-            <Link to='/inst' className='ml-3'>
+          
+            <Link  to='https://www.instagram.com/geeksforgeeks_mits?igsh=MW9sZ2Q5dm82N3p6bQ==' className='ml-3'>
               <FaInstagram />
             </Link>
-            <Link to='/inst' className='ml-3'>
+            
+            <Link to='https://www.linkedin.com/in/geeksforgeeks-mits-student-chapter-5b2986293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' className='ml-3'>
               <FaLinkedin />
             </Link>
             <Link to='/inst' className='ml-3'>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Discordbanner() {
   return (
@@ -11,7 +12,7 @@ export default function Discordbanner() {
               <p class="text-green-700 text-2xl font-bold md:text-3xl">Join Our Discord Community today.</p>
             </div>
 
-            <a href="#" class="inline-block rounded-lg bg-green-700 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Join Discord</a>
+            <Link to="#" class="inline-block rounded-lg bg-green-700 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-green-600 focus-visible:ring active:bg-green-700 md:text-base">Join Discord</Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import gfg2 from './gfg2_1.png';
+import { Link } from 'react-router-dom';
 export default function Hero() {
   return (
     <div class="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
@@ -12,16 +13,16 @@ export default function Hero() {
               MITS Gwalior
             </span>
           </h1>
-          <p class="text-sm sm:text-base text-gray-700 dark:text-white">
+          <p class="text-lg sm:text-lg pt-2 text-gray-700 dark:text-white">
             A community of coders, developers, and technology enthusiasts.
           </p>
           <div class="flex mt-8">
-            <a href="#" class="uppercase py-2 px-4 rounded-lg bg-green-600 border-2 border-transparent text-white text-md mr-4 hover:bg-green-800">
+            <Link to="/team" class="uppercase py-2 px-4 rounded-lg bg-green-600 border-2 border-transparent text-white text-md mr-4 hover:bg-green-800">
               Meet The Team
-            </a>
-            <a href="#" class="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-green-600 text-green-600 dark:text-white hover:bg-green-800 hover:text-white text-md">
+            </Link>
+            <Link to="/event" class="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-green-600 text-green-600 dark:text-white hover:bg-green-800 hover:text-white text-md">
               Our Events
-            </a>
+            </Link>
           </div>
         </div>
         <div className='hidden lg:block'>
