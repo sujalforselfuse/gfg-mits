@@ -19,7 +19,7 @@ export default function Whatwedo() {
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-10">
 
-                    <div class="block rounded-xl border border-blue-800 bg-[#F1F1FB] dark:bg-slate-900 p-4">
+                    <div class="block rounded-xl border border-blue-800 bg-[#F1F1FB] dark:bg-slate-900 p-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 ...">
                         <span class="inline-block rounded-lg p-3">
                             <div class="inline-flex align-middle justify-center items-center select-none dark:text-white text-black">
                                 <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" height="32" width="32">
@@ -39,7 +39,7 @@ export default function Whatwedo() {
                         </p>
                     </div>
 
-                    <div class="block rounded-xl border border-green-800 p-4 bg-[#FEF8E6] dark:bg-slate-900">
+                    <div class="block rounded-xl border border-green-800 p-4 bg-[#FEF8E6] dark:bg-slate-900 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 ...">
                         <span class="inline-block rounded-lg p-3">
                             <div class="inline-flex align-middle justify-center items-center select-none dark:text-white text-black">
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" height="32" width="32">
@@ -55,7 +55,7 @@ export default function Whatwedo() {
                         </p>
                     </div>
 
-                    <div class="block rounded-xl border border-slate-800 p-4 dark:bg-slate-900 bg-green-100">
+                    <div class="block rounded-xl border border-slate-800 p-4 dark:bg-slate-900 bg-green-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 ...">
                         <span class="inline-block rounded-lg p-3">
                             <div class="inline-flex align-middle justify-center items-center select-none dark:text-white text-black">
                                 <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" height="32" width="32">
@@ -72,7 +72,7 @@ export default function Whatwedo() {
                         </p>
                     </div>
 
-                    <div class="block rounded-xl border border-red-800 p-4 dark:bg-slate-900 bg-red-100">
+                    <div class="block rounded-xl border border-red-800 p-4 dark:bg-slate-900 bg-red-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 ...">
                         <span class="inline-block rounded-lg p-3">
                             <div class="inline-flex align-middle justify-center items-center select-none dark:text-white text-black">
                                 <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" height="32" width="32">

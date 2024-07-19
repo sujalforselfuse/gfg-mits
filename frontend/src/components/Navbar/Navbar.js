@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 import { Disclosure, Switch, Menu, Transition } from '@headlessui/react'
 import { BiMoon, BiSun } from 'react-icons/bi'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import gfgicon from './gfgicon.png';
+import gfgicon from './gfg2.png';
 const navigation = [
   { name: 'Home', to: '/', current: true },
   { name: 'Team', to: '/team', current: false },
@@ -28,7 +28,7 @@ export default function Navbar() {
 
   if (!mounted) { return null }
   return (
-    <Disclosure as="nav" className="dark:bg-gray-800 bg-white">
+    <Disclosure as="nav" className="dark:bg-gray-800 bg-white fixed w-full z-40">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -45,10 +45,10 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-1 items-center justify-center sm:items-center sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-10 w-auto"
+                    className="h-16 w-auto"
                     src={gfgicon}
                     alt="Your Company"
                   />

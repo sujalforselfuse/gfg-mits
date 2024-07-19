@@ -5,6 +5,17 @@ import "swiper/css/free-mode";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination } from "swiper/modules";
 
+import g1 from './g1 (1).jpg';
+import g2 from './g1 (2).jpg';
+import g3 from './g1 (3).JPG';
+import g4 from './g1 (4).JPG';
+import g5 from './g1 (5).JPG';
+import g6 from './g1 (6).JPG';
+import g7 from './g1 (7).JPG';
+import g8 from './g1 (8).JPG';
+import g9 from './g1 (9).JPG';
+import g10 from './g1 (10).JPG';
+import g11 from './g1 (11).JPG';
 
 import gfg from './gfg_event.jpg'
 
@@ -40,29 +51,48 @@ export default function Gallery() {
             className="max-w-[90%] lg:max-w-[85%]"
           >
 
+            
+
+           
+
+            
+
             <SwiperSlide>
-              <img src={gfg} alt="slide_image" />
+              <img src={g4} alt="slide_image" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={gfg} alt="slide_image" />
+              <img src={g5} alt="slide_image" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={gfg} alt="slide_image" />
+              <img src={g6} alt="slide_image" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={gfg} alt="slide_image" />
+              <img src={g7} alt="slide_image" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={gfg} alt="slide_image" />
+              <img src={g8} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={g3} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={g9} alt="slide_image" />
             </SwiperSlide>
 
             <SwiperSlide>
-              <img src={gfg} alt="slide_image" />
+              <img src={g10} alt="slide_image" />
             </SwiperSlide>
+
+            <SwiperSlide>
+              <img src={g11} alt="slide_image" />
+            </SwiperSlide>
+
+            
+
 
             <div className="slider-controler">
               <div className="swiper-button-prev slider-arrow">
