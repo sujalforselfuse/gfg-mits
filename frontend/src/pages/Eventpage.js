@@ -6,7 +6,9 @@ export default function Eventpage() {
   return (
     <div>
       <Navbar></Navbar>
-      <Event></Event>
+      <div className='py-16'>
+        <Event></Event>
+      </div>
       <Footer></Footer>
     </div>
   )
